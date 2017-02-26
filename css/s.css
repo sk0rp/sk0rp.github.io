@@ -1,11 +1,162 @@
-#logo img {
-	width: 100px;
+body {
+	font-family: "MyriadProLSE", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.intro-section .par {
-	margin: 0 0 10px;
+@font-face {
+  font-family: "MyriadProLSE";
+  src:  url("../img/myriad_pro_light_semi_extended.ttf") format("truetype");
 }
 
-.intro-section p {
+p  {
+	font-size: 24px;
+	color: #fff;
 	margin: 0;
+	line-height: 1.1em;
+}
+
+h1 {
+	color: #fff;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	width: inherit;
+	font-weight: 100;
+	display: inline;
+}
+
+.par {
+	margin: 2em 0;
+}
+
+#logo img {
+	width: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: width 2s;
+	-moz-transition: width 2s;
+    transition: width 2s;
+}
+
+#logo img.logo-collapse {
+	width: 16em;
+}
+
+.navbar-default {
+	color: #fff;
+    background-color: transparent;
+	font-size: 1.5em;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+}
+
+.navbar .navbar-collapse {
+	overflow: auto !important;
+}
+
+#enpl {
+	float: right;
+	padding: 0 15px 0;
+	color: #bcd3d3;
+}
+
+ul.nav {
+	float: right;
+	clear: both;
+	margin-right: 6em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 15px 0 0;
+	margin: 0 15px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background-color: transparent;
+	border-bottom: 2px solid #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+section {
+	height: 100%;
+    padding-top: 150px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container {
+	margin-top: -112px;
+}
+
+.about-section {
+    background: url(../img/bg_latin_soul.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.venue-section {
+    background: url(../img/bg_atlantic.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.programme-section {
+    background: url(../img/bg_couples.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tickets-section {
+    background: url(../img/bg_krzysztof_dorota.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tickets-section-2 {
+    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.artists-section {
+    background: url(../img/bg_marco_evelyn.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.artists-section-2 {
+    background: url(../img/bg_krzysztof_dorota_3.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.footer-section {
+    background: url(../img/bg_latin_soul.png) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 200px;
 }
