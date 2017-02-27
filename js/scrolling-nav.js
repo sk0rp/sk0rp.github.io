@@ -1,11 +1,9 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
-		$("#logo img").addClass("logo-collapse");
-		$("#logo img").attr("src", "img/logo_latin_soul_full.png");
+		logoCollapse();
     } else {
-		$("#logo img").removeClass("logo-collapse");
-		$("#logo img").attr("src", "img/logo_latin_soul_big.png");
+		logoRecover();
     }
 });
 
