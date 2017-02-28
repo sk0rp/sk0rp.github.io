@@ -1,0 +1,283 @@
+body {
+	font-family: "MyriadProLSE", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "MyriadProLSE";
+  src:  url("../img/myriad_pro_light_semi_extended.ttf") format("truetype");
+}
+
+@media (max-width: 991px) {
+	body, h1 {
+		font-size: 18px;
+	}
+	section .container-fluid {
+		padding-left: 190px !important;
+	}
+	
+	section.about-section {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 992px) {
+	h1, p, strong, span  {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1280px) {
+	h1, p, strong, span  {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1600px) {
+	h1, p, strong, span  {
+		font-size: 24px;
+	}
+}
+
+p, strong, span  {
+	color: #fff;
+	margin: 0;
+	line-height: 1.1em;
+}
+
+h1 {
+	color: #fff;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	width: inherit;
+	font-weight: 100;
+	display: inline;
+}
+
+.par {
+	margin: 1em 0 2em;
+}
+
+.logo img {
+	width: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: width 2s;
+	-moz-transition: width 2s;
+    transition: width 2s;
+	z-index: -1;
+}
+
+.logo img.logo-collapse {
+	width: 16em;
+}
+
+.logo img.logo-collapse-very {
+	width: 10em;
+}
+
+@media (max-width: 991px) {
+    .navbar-header { float: none; }
+    .navbar-toggle { display: block; }
+    .navbar-collapse { border: none; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); background-color: rgba(0, 59, 77, 0.6) }
+	.navbar-collapse div, .navbar-collapse ul { opacity: 1 }
+    .navbar-collapse.collapse { display: none!important; }
+    .navbar-nav { float: none!important; margin: 7.5px -15px; }
+    .navbar-nav>li { float: none; text-align: center; padding-bottom: 1em }
+    .navbar-nav>li>a { padding-top: 10px; padding-bottom: 10px; }
+    .navbar-text { float: none; margin: 15px 0; }
+    .navbar-collapse.collapse.in { display: block!important; }
+    .collapsing { overflow: hidden!important; }
+	.navbar-collapse.collapse.in { display: block!important; margin-top: 0px; }
+	.navbar-default .navbar-nav>li>a { padding-bottom: 0 !important }
+}
+
+.navbar-default {
+	color: #fff;
+    background-color: transparent;
+	font-size: 1.5em;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+}
+
+#enpl {
+	float: right;
+	padding: 0 15px 0;
+	color: #bcd3d3;
+}
+
+ul.nav {
+	float: right;
+	clear: both;
+	margin-right: 3em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 0.8em 0 0.2em 0;
+	margin: 0 1em 1em;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background-color: transparent;
+	border-bottom: 2px solid #fff;
+	display: inline;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+section {
+	height: 100%;
+    padding-top: 150px;
+}
+
+section .container {
+	margin-top: -112px;
+}
+
+section .container-fluid {
+	height: 100%;
+	padding-left: 250px;
+	width: 100%;
+}
+
+section .row-fluid {
+	height: 100%;
+	width: 100%;
+}
+
+section .row-fluid>div {
+	height: 100%;
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textblock {
+	padding-left: 3em;
+}
+
+.about-section {
+    background: url(../img/bg_latin_soul.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.venue-section {
+    background: url(../img/bg_atlantic.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.programme-section {
+    background: url(../img/bg_couples.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.programme-section *, .tickets-section * {
+	color: #000;
+	border-color: #000;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tickets-section {
+    background: url(../img/bg_krzysztof_dorota.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tickets-section-2 {
+    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.artists-section {
+    background: url(../img/bg_marco_evelyn.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.artists-section-2 {
+    background: url(../img/bg_krzysztof_dorota_3.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.footer-section {
+    background: url(../img/bg_latin_soul.png) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+
+#map {
+	height: 70%;
+	width: 100%;
+}
+
+section.footer-section .container-fluid {
+	padding-left: 0;
+}
+
+section.footer-section .row-fluid>div {
+    justify-content: center;
+}
+
+#footerblock {
+	height: 100%;
+	display: flex;
+    align-items: center;
+}
+
+#footerblock .logo-simple {
+	height: 70%;
+}
+
+#footerblock .fb, #footerblock .yt {
+	height: 25%;
+}
+
+#footerblock span {
+	padding-left: 1.5em;
+}
+
+#footerblock .fb img, #footerblock .yt img {
+	height: 100%;
+}
+
+#social-bar {
+	position: fixed;
+	top: 70%;
+	left: 3em;
+	width: 0;
+}
+
+#social-bar img {
+	height: 4em;
+}
