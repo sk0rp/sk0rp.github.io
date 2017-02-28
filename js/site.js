@@ -5,7 +5,7 @@ function logoCollapse() {
 
 function logoRecover() {
 	$("#logo img").removeClass("logo-collapse");
-	$("#logo img").attr("src", "img/logo_latin_soul_big.png");
+	$("#logo img").attr("src", "img/logo_latin_soul_big_en.png");
 }
 
 $('.nav a').on('click', function(){

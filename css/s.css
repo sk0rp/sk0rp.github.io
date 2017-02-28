@@ -188,14 +188,14 @@ section .row-fluid>div {
 	background-size: cover;
 }
 
-.programme-section *, .tickets-section * {
+.programme-section * {
 	color: #000;
 	border-color: #000;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .tickets-section {
-    background: url(../img/bg_krzysztof_dorota.png) no-repeat center center fixed; 
+    background: url(../img/bg_marco_evelyn_1.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -203,7 +203,7 @@ section .row-fluid>div {
 }
 
 .tickets-section-2 {
-    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center fixed; 
+    background: url(../img/bg_krzysztof_dorota_1.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -211,7 +211,7 @@ section .row-fluid>div {
 }
 
 .artists-section {
-    background: url(../img/bg_marco_evelyn.png) no-repeat center center fixed; 
+    background: url(../img/bg_marco_evelyn_2.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -219,7 +219,7 @@ section .row-fluid>div {
 }
 
 .artists-section-2 {
-    background: url(../img/bg_krzysztof_dorota_3.png) no-repeat center center fixed; 
+    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
