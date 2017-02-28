@@ -9,10 +9,281 @@
 
     <title>Latin Soul Bachata Edition</title>
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link href="css/s.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-asdf
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+                </button>
+                <a id="logo" class="logo navbar-brand page-scroll hidden-xs hidden-sm" href="#page-top">
+					<img src="img/logo_latin_soul_big.png" alt="Latin Soul Bachata Edition" />
+				</a>
+				<a id="logo2" class="logo navbar-brand page-scroll hidden-md hidden-lg hidden-xl" href="#page-top">
+					<img src="img/logo_latin_soul_full.png" alt="Latin Soul Bachata Edition" class="logo-collapse-very" />
+				</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+				<div id="enpl">en | pl</div>
+				<ul class="nav navbar-nav">
+					<li>
+						<a class="page-scroll" href="#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#venue">Venue</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#programme">Programme</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#tickets">Tickets</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#artists">Artists</a>
+					</li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section id="about" class="about-section">
+        <div class="container-fluid">
+            <div class="row-fluid">
+				<div class="col-md-7 hidden-xs hidden-sm"></div>
+                <div class="col-md-5 col-xs-12">
+					<div class="textblock">
+						<h1>Bachata Edition</h1>
+						<div class="par">
+							<p>8 hours of workshops</p>
+							<p>with international stars</p>
+							<p>Marco & Evelyn</p>
+							<p>Krzysztof & Dorota</p>
+						</div>
+						<div class="par">
+							<p>2 Imprezy + Pokazy</p>
+							<p>DJ Yoorek</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="venue" class="venue-section">
+        <div class="container-fluid">
+            <div class="row-fluid">
+				<div class="col-lg-7 col-md-6">
+					<div id="map"></div>
+					<script>
+					  function initMap() {
+						var atlantic = {lat: 54.519200, lng: 18.535227};
+						var map = new google.maps.Map(document.getElementById('map'), {
+						  zoom: 17,
+						  center: atlantic,
+						  scrollwheel: false
+						});
+						var marker = new google.maps.Marker({
+						  position: atlantic,
+						  map: map,
+						});
+					  }
+					</script>
+				</div>
+                <div class="col-lg-5 col-md-6">
+					<div class="textblock">
+						<h1>Atlantic Club</h1>
+						<div class="par">
+							<p>ul. 3 Maja 28, Gdynia</p>
+							<p>April 28-30</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programme" class="programme-section">
+		<div class="container-fluid">
+            <div class="row-fluid">
+				<div class="col-lg-7 col-sm-6"></div>
+                <div class="col-lg-5 col-sm-6">
+					<div class="textblock">
+						<h1>Programme</h1>
+						<div class="par">
+							<p>Friday:</p>
+							<p>Pre-party - DJ Yoorek</p>
+						</div>
+						<div class="par">
+							<p>Saturday:<p>
+							<p>Workshops - Dorota and Krzysztof 4h</p>
+							<p>The event - DJ Yoorek</p>
+						</div>
+						<div class="par">
+							<p>Sunday:</p>
+							<p>Workshops - Marco y Evelyn 4h</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tickets" class="tickets-section">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-7"></div>
+                <div class="col-sm-5">
+					<div class="textblock">
+						<h1>FULL PASS</h1>
+						<div class="par">
+							<p>- includes workshops and both events</p>
+							<p>Individual: 179z³</p>
+							<p>Couples: 338z³ (you save 20 PLN)</p>
+							<p>Group of six: 989z³ (you save 85z³)</p>
+						</div>
+						<h1>VIP PASS</h1>
+						<div class="par">
+							<p>- includes workshops and both events, in addition:</p>
+							<p>* In the event a seat in a special VIP sector</p>
+							<p>* Seats near the stage during the shows</p>
+							<p>* Snacks and drinks during the event</p>
+							<p>Individual: 229z³</p>
+							<p>Couples: 428z³ (you save 30 PLN)</p>
+							<p>Group of six: 1259z³ (you save 115z³)</p>
+						</div>
+						<h1>PARTY PASS</h1>
+						<div class="par">
+							<p>The event on Friday - 15 PLN</p>
+							<p>The event on Saturday - 25 PLN</p>
+							<p>Party pass - includes both events - 30 PLN</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section class="tickets-section-2">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-7"></div>
+                <div class="col-sm-5">
+					<div class="textblock">
+						<h1>HOW TO BUY PASS?</h1>
+						<div class="par">
+							<p>You should make a transfer to our account:</p>
+							<strong>ING: 64 1050 1764 1000 0091 4133 0895</strong>
+							<p>title: Bachata Latin Soul Edition</p>
+							<p>(your name or names)</p>
+						</div>
+						<div class="par">
+							<p>Then send us confirmation of payment</p>
+							<p>to the following address:</p>
+							<strong>latinsoulinfo.pl@gmail.com</strong>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section id="artists" class="artists-section">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-7"></div>
+                <div class="col-sm-5">
+					<div class="textblock">
+						<h1>Marco Espejo Nunez</h1>
+						<div class="par">
+							<p>4-time Spain champion and world champion in Bachatart Fusion. It comes from the city of Trujillo in Peru. From an early age fascinated by the music latina, in 2008 he settled in Spain where he discovered the world of dance. He began as a self-taught modeled on dancers of the time, among them a special place went to Juan Pachanga Matos, who took for his inspiration and the key to the development of his own style. Later, as a professional, focusing on the world stage bachata suffered great results at national and international level.</p>
+						</div>
+						<h1>Evelyn Castro Artiles</h1>
+						<div class="par">
+							<p>from Kararyjskich Islands. She began teaching Latin Dance in 2005, completing her classical dance and private lessons in other areas, their interest focused mainly on the stage.</p>
+							<p>1st place - Ron Brugal Canarias (2007)</p>
+							<p>1st place - Salsa Open Canaries (2010, 2014)</p>
+							<p>National team in World Salsa Open (2010, 2012 and 2014)</p>
+							<p>In 2014 she began to be recognized at the national and international scene Bachata Sensual</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section class="artists-section-2">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-7"></div>
+                <div class="col-sm-5">
+					<div class="textblock">
+						<h1>Dorota Jastrzêbska</h1>
+						<div class="par">
+							<p>Her adventure with dance began at the age of 6 years. For 13 years, she danced disco, hip-hop and classical dance. Then jazz, which remains true today, leading dance classes. The first meeting with salsa and bachata captivated her heart to such an extent that, along with jazz swallowed it without the rest. Hard work has resulted in several times world championship in disco and hip-hop.</p>
+						</div>
+						<h1>Krzysztof Juraszek</h1>
+						<div class="par">
+							<p>his adventure with dance began in 2010. The first dance steps put in the rhythm of salsa, but at the beginning of 2011 fell in love with Bachata. In 2012 he won the Polish Championship at the Bachata Stars Poland in 2012 and in the same year represented the country at the Bachata Stars Europe held in Norway. Music education is a solid foundation and huge aid within the meaning of music, which is always trying to feel and interpret in dance.</p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="footer" class="footer-section">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-lg-12">
+                    <div id="footerblock">
+						<img class="logo-simple" src="img/logo_latin_soul_simple.png" alt="Latin Soul">
+						<a href="https://www.facebook.com/events/385487801818368/" target="_blank" class="fb"><img src="img/icon_fb_white.png" /></a>
+						<a href="https://www.youtube.com/channel/UCMqy02NviDilcexxgMgO82A" target="_blank" class="yt"><img src="img/icon_yt_white.png" /></a>
+						<span>© 2017 Latin Soul. All rights reserved.</span>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<div id="social-bar">
+		<a href="https://www.facebook.com/events/385487801818368/" target="_blank" class="fb"><img src="img/icon_fb_white.png" /></a>
+		<a href="https://www.youtube.com/channel/UCMqy02NviDilcexxgMgO82A" target="_blank" class="yt"><img src="img/icon_yt_white.png" /></a>
+	</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	<script src="js/bootstrap-toolkit.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKBmv6IpcQ5HoFOntL8jqUQ9XNPD0b72A&callback=initMap"></script>
+	<script src="js/site.js"></script>
 
 </body>
 
