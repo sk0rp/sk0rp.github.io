@@ -75,6 +75,7 @@ h1 {
 
 .logo img.logo-collapse-very {
 	width: 10em;
+	z-index:2000;
 }
 
 @media (max-width: 991px) {
@@ -165,7 +166,7 @@ section .row-fluid>div {
 }
 
 .about-section {
-    background: url(../img/bg_latin_soul.png) no-repeat center center fixed;
+    background: url(../img/bg_latin_soul.png) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -173,7 +174,7 @@ section .row-fluid>div {
 }
 
 .venue-section {
-    background: url(../img/bg_atlantic.png) no-repeat center center fixed; 
+    background: url(../img/bg_atlantic.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -181,7 +182,7 @@ section .row-fluid>div {
 }
 
 .programme-section {
-    background: url(../img/bg_couples.png) no-repeat center center fixed; 
+    background: url(../img/bg_couples.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -195,7 +196,7 @@ section .row-fluid>div {
 }
 
 .tickets-section {
-    background: url(../img/bg_marco_evelyn_1.png) no-repeat center center fixed; 
+    background: url(../img/bg_marco_evelyn_1.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -203,7 +204,7 @@ section .row-fluid>div {
 }
 
 .tickets-section-2 {
-    background: url(../img/bg_krzysztof_dorota_1.png) no-repeat center center fixed; 
+    background: url(../img/bg_krzysztof_dorota_1.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -211,7 +212,7 @@ section .row-fluid>div {
 }
 
 .artists-section {
-    background: url(../img/bg_marco_evelyn_2.png) no-repeat center center fixed; 
+    background: url(../img/bg_marco_evelyn_2.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -219,7 +220,7 @@ section .row-fluid>div {
 }
 
 .artists-section-2 {
-    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center fixed; 
+    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -279,6 +280,7 @@ section.footer-section .row-fluid>div {
 }
 
 #social-bar.collapsed {
+	position: absolute;
 	top: 0;
 	right: 90px;
 	left: auto;

@@ -2,10 +2,8 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
 		logoCollapse();
-		$("#social-bar.collapsed").fadeOut('slow');
     } else {
 		logoRecover();
-		$("#social-bar.collapsed").fadeIn('slow');
     }
 	
 	if ($(window).scrollTop() + $(window).height() > $(document).height() - 150) {
