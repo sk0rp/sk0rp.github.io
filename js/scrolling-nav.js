@@ -1,6 +1,6 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 100) {
+    if ($(".navbar").offset().top > 50) {
 		logoCollapse();
 		$("#social-bar.collapsed").fadeOut('slow');
     } else {
