@@ -12,7 +12,7 @@ body {
 		font-size: 18px;
 	}
 	section .container-fluid {
-		padding-left: 190px !important;
+		padding-left: 0 !important;
 	}
 	
 	section.about-section {
@@ -278,6 +278,14 @@ section.footer-section .row-fluid>div {
 	width: 0;
 }
 
-#social-bar img {
-	height: 4em;
+#social-bar.collapsed {
+	top: 0;
+	right: 90px;
+	left: auto;
+	width: 180px;
+	z-index: 2000;
+}
+
+#social-bar.collapsed img {
+	margin-top: 12px;
 }
