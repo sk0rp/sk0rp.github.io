@@ -42,6 +42,10 @@ body {
 	div#footerblock  .row-fluid .col-lg-12 > div {
 		height: 50%;
 	}
+	
+	div.textblock {
+	padding: 0;
+}
 }
 
 @media (min-width: 992px) {
@@ -188,7 +192,6 @@ section .row-fluid>div {
 
 .textblock {
 	padding-left: 3em;
-	overflow: auto;
 }
 
 .about-section {
