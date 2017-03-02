@@ -43,9 +43,13 @@ body {
 		height: 50%;
 	}
 	
+	section {
+		padding-top: 0 !important;
+	}
+	
 	div.textblock {
-	padding: 0;
-}
+		padding: 0;
+	}
 }
 
 @media (min-width: 992px) {
