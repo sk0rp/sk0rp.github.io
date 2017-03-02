@@ -38,6 +38,10 @@ body {
 	div#footerblock .logo-simple{
 		height: 50%;
 	}
+	
+	div#footerblock  .row-fluid .col-lg-12 > div {
+		height: 50%;
+	}
 }
 
 @media (min-width: 992px) {
