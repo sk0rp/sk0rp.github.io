@@ -188,6 +188,7 @@ section .row-fluid>div {
 
 .textblock {
 	padding-left: 3em;
+	overflow: auto;
 }
 
 .about-section {
