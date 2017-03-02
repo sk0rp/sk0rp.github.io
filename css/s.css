@@ -323,9 +323,9 @@ section.footer-section .row-fluid>div {
 #social-bar.collapsed {
 	position: absolute;
 	top: 18px;
-	right: 30px;
+	right: 90px;
 	left: auto;
-	width: 180px;
+	width: 122px;
 	z-index: 2000;
 }
 
