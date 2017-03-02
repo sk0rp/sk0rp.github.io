@@ -18,6 +18,26 @@ body {
 	section.about-section {
 		font-size: 22px;
 	}
+	
+	ul.nav {
+		margin: 0 !important;
+	}
+	
+	section.venue-section .row-fluid>div  {
+		height: 20%;
+	}
+	
+	section.venue-section .row-fluid>div:first-of-type {
+		height: 80%;
+	}
+	
+	section.programme-section, section.tickets-section, section.tickets-section-2, section.artists-section, section.artists-section-2 {
+		background-image: none;
+	}
+	
+	div#footerblock .logo-simple{
+		height: 50%;
+	}
 }
 
 @media (min-width: 992px) {
@@ -75,13 +95,13 @@ h1 {
 
 .logo img.logo-collapse-very {
 	width: 10em;
-	z-index:2000;
+	z-index:1000;
 }
 
 @media (max-width: 991px) {
-    .navbar-header { float: none; }
+    .navbar-header { float: none; margin: 0 !important }
     .navbar-toggle { display: block; }
-    .navbar-collapse { border: none; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); background-color: rgba(0, 59, 77, 0.6) }
+    .navbar-collapse { border: none; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); background-color: rgba(0, 59, 77, 0.6); margin: 0 }
 	.navbar-collapse div, .navbar-collapse ul { opacity: 1 }
     .navbar-collapse.collapse { display: none!important; }
     .navbar-nav { float: none!important; margin: 7.5px -15px; }
@@ -106,6 +126,7 @@ h1 {
 	float: right;
 	padding: 0 15px 0;
 	color: #bcd3d3;
+	display: none;
 }
 
 ul.nav {
@@ -182,7 +203,7 @@ section .row-fluid>div {
 }
 
 .programme-section {
-    background: url(../img/bg_couples.png) no-repeat center center; 
+    background: #d8d5d6 url(../img/bg_couples.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -196,7 +217,7 @@ section .row-fluid>div {
 }
 
 .tickets-section {
-    background: url(../img/bg_marco_evelyn_1.png) no-repeat center center; 
+    background: #478152 url(../img/bg_marco_evelyn_1.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -204,7 +225,7 @@ section .row-fluid>div {
 }
 
 .tickets-section-2 {
-    background: url(../img/bg_krzysztof_dorota_1.png) no-repeat center center; 
+    background: #231f20 url(../img/bg_krzysztof_dorota_1.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -212,7 +233,7 @@ section .row-fluid>div {
 }
 
 .artists-section {
-    background: url(../img/bg_marco_evelyn_2.png) no-repeat center center; 
+    background: #adb3bb url(../img/bg_marco_evelyn_2.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -220,7 +241,7 @@ section .row-fluid>div {
 }
 
 .artists-section-2 {
-    background: url(../img/bg_krzysztof_dorota_2.png) no-repeat center center; 
+    background: #6a1720 url(../img/bg_krzysztof_dorota_2.png) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
