@@ -293,6 +293,14 @@ section.footer-section .row-fluid>div {
 	height: 70%;
 }
 
+.fb img, .yt img {
+	margin: 7px;
+}
+
+.yt img {
+	margin-left: 5px;
+}
+
 #footerblock .fb, #footerblock .yt {
 	height: 25%;
 }
@@ -314,8 +322,8 @@ section.footer-section .row-fluid>div {
 
 #social-bar.collapsed {
 	position: absolute;
-	top: 0;
-	right: 90px;
+	top: 18px;
+	right: 30px;
 	left: auto;
 	width: 180px;
 	z-index: 2000;
